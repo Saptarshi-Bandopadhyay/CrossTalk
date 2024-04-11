@@ -7,7 +7,8 @@ os.environ['KERAS_BACKEND'] = 'tensorflow'
 
 vocab = list(np.load("vocabulary.npy"))
 
-model = keras.saving.load_model("encodeco_attention_nmt_5000.keras")
+model = keras.saving.load_model(
+    "encodeco_attention_nmt_5000.keras", compile=False)
 
 
 def translate(english_sentence):
