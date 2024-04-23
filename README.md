@@ -9,7 +9,7 @@ A English to Spanish Neural Machine Translation (NMT) system.
 Key features include - 
  - A bidirectional LSTM architecture coupled with Luong's attention mechanism, ensuring accurate and contextually relevant translations. 
 - A vocabulary size of 5000 and encoder embedding size of 128.
-- Achieving a notable 67% translation accuracy on the Spa-Eng dataset by Anki 
+- Achieving a notable 70% translation accuracy on the Spa-Eng dataset by Anki 
 
 ## Usage
 
